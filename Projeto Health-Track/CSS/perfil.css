@@ -1,0 +1,67 @@
+div.perfil-parent {
+    padding: 10px 0;
+}
+
+div.perfil-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    padding: 40px 20px;
+    width: 100%;
+    background-color: white;
+}
+
+div.perfil-img {
+    width: 40%;
+}
+
+
+div.perfil-form {
+    padding: 30px;
+    width: 60%;
+}
+
+div.perfil-form label {
+font-size: 14px;
+color: #44555f;
+}
+div.perfil-form input, div.perfil-form select {
+    font-size: 14px;
+    color:#44555f;
+}
+
+div.perfil-form input[type=file] {
+    margin-top: 10px;
+}
+
+div.perfil-form button {
+    margin-top: 25px;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    color: #fff;
+}
+
+div.perfil-form button:hover {
+    border: none;
+    color: #fff;
+    transform: scale(1.10);
+    transition: 1s;
+}
+
+div.img {
+    height: 530px;
+    width: 350px;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+    background-image: url(../img/pexels-andrea-piacquadio-774909.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

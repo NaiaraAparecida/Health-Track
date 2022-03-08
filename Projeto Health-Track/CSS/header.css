@@ -1,0 +1,21 @@
+.flex-dashboard header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    height: 60px;
+    background-color: #123552;
+    padding: 10 30px;
+    border: 1px solid rgba(0, 0, 0, .0625);
+}
+
+.flex-dashboard header a {
+    margin-right: 35px;
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+.flex-dashboard header a> i {
+    color:#fdfdfd;
+    margin-right: 10px;
+}

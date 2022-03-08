@@ -1,0 +1,53 @@
+.flex-cadastrar header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 60px;
+    background-color: #123552;
+    padding: 10 30px;
+    border: 1px solid rgba(0, 0, 0, .0625);
+}
+
+.flex-cadastrar header a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+.flex-cadastrar header a> i {
+    color:#fdfdfd;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.cadastrar {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+
+.cadastrar button {
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    color: #fff;
+}
+
+.cadastrar button:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+    color: #fff;
+}
+
+.cadastrar a {
+    border: none;
+    color: #fff;
+    margin-top: 0px;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+
+}
+
+
+.cadastrar a:hover {
+    border: none;
+    color: #fff;
+}
